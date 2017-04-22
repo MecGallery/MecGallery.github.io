@@ -1,0 +1,59 @@
+span {text-align: center; letter-spacing: 20px; }
+h1 {letter-spacing: 100px; text-align: right; font-size: 25px}
+p {font-style: oblique;}
+.uppercase {text-transform: uppercase;}
+.text {text-align: right; font-style: oblique; font-size: 30px}
+.east {text-align: right;}
+.center {text-align: center;}
+
+
+a:visited {text-decoration: none}
+
+.stars a {
+    display: block;
+    color:#fdde81;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 5%;
+    position: fixed;
+   }
+   
+a:hover {color: #FFFFFF; -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      box-shadow: 1px 0px 20px yellow; }
+.stars a:hover {background: #fdde81}
+
+/*placement*/
+.one {right: -10px; bottom: -55px ;
+  line-height: 75px;
+      width: 70px;
+    height: 70px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #fdde81;}
+
+.two { right: -80px; bottom: -40px ;
+	 height:40px;
+     width:80px;
+     border-radius: 80px 80px 0 0;
+     -moz-border-radius: 80px 80px 0 0;
+     -webkit-border-radius: 80px 80px 0 0;
+     background:#fdde81;
+     	-ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+ 	}
+.three { bottom: -40px ;
+	right: 50px;
+	 height:40px;
+     width:80px;
+     border-radius: 80px 80px 0 0;
+     -moz-border-radius: 80px 80px 0 0;
+     -webkit-border-radius: 80px 80px 0 0;
+     background:#fdde81;
+     	-ms-transform: rotate(270deg); 
+    -webkit-transform: rotate(270deg); 
+    transform: rotate(270deg);}

@@ -1,0 +1,77 @@
+body{background-color: #1E2128; }
+
+p {color: #66FEF2;  	}
+body {background: rgba(255,93,177,1);
+background: -moz-linear-gradient(top, rgba(255,93,177,1) 0%, rgba(13,30,56,1) 56%, rgba(13,30,56,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,93,177,1)), color-stop(56%, rgba(13,30,56,1)), color-stop(100%, rgba(13,30,56,1)));
+background: -webkit-linear-gradient(top, rgba(255,93,177,1) 0%, rgba(13,30,56,1) 56%, rgba(13,30,56,1) 100%);
+background: -o-linear-gradient(top, rgba(255,93,177,1) 0%, rgba(13,30,56,1) 56%, rgba(13,30,56,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,93,177,1) 0%, rgba(13,30,56,1) 56%, rgba(13,30,56,1) 100%);
+background: linear-gradient(to bottom, rgba(255,93,177,1) 0%, rgba(13,30,56,1) 56%, rgba(13,30,56,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5db1', endColorstr='#0d1e38', GradientType=0 );}
+ .rotate {	-ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(7deg); 
+    transform: rotate(7deg);}
+
+.back {-ms-transform: rotate(-9deg); 
+    -webkit-transform: rotate(-9deg); 
+    transform: rotate(-9deg);}
+ .box {
+ 	 color: #66FEF2;}
+ .textshadow {text-shadow: 2px 2px black; font-family: Times; font-style: italic;  }
+.right {text-align: right;}
+
+
+
+
+a:visited {text-decoration: none}
+
+.stars a {
+    display: block;
+    color:#fdde81;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    margin: 5%;
+    position: fixed;
+   }
+   
+a:hover {color: #FFFFFF; -webkit-stroke-width: 5.3px;
+      -webkit-stroke-color: #FFFFFF;
+      -webkit-fill-color: #FFFFFF;
+      box-shadow: 1px 0px 20px yellow; }
+.stars a:hover {background: #fdde81}
+
+/*placement*/
+.one {right: -10px; bottom: -55px ;
+  line-height: 75px;
+      width: 70px;
+    height: 70px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #fdde81;}
+
+.two { right: -80px; bottom: -40px ;
+	 height:40px;
+     width:80px;
+     border-radius: 80px 80px 0 0;
+     -moz-border-radius: 80px 80px 0 0;
+     -webkit-border-radius: 80px 80px 0 0;
+     background:#fdde81;
+     	-ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+ 	}
+.three { bottom: -40px ;
+	right: 50px;
+	 height:40px;
+     width:80px;
+     border-radius: 80px 80px 0 0;
+     -moz-border-radius: 80px 80px 0 0;
+     -webkit-border-radius: 80px 80px 0 0;
+     background:#fdde81;
+     	-ms-transform: rotate(270deg); 
+    -webkit-transform: rotate(270deg); 
+    transform: rotate(270deg);}
+
